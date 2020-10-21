@@ -47,7 +47,7 @@ def run(songs)
   puts "Please enter a command:"
   input = gets.strip
   
-  until input == "exit"
+  case input 
     if input == "list"
       list(songs)
       inputs = gets.strip
