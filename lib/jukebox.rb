@@ -51,14 +51,14 @@ def run(songs)
     if input == "list"
       list(songs)
       inputs = gets.strip
+      break
     elsif input == "play"
       play(songs)
       inputs = gets.strip
+      break
     elsif input == "help"
       help 
       inputs = gets.strip
-    elsif input == "exit"
-      exit_jukebox
       break 
     else 
       puts "invalid command"
