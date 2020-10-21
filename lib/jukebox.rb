@@ -64,6 +64,7 @@ def run(songs)
       puts "invalid command"
       help
       inputs = gets.strip
+      break
     end
   end
   exit_jukebox
